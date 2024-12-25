@@ -7678,7 +7678,7 @@ final class UTF8
         $search,
         $replace,
         $subject,
-        int &$count = null
+        ?int &$count = null
     ) {
         /**
          * @psalm-suppress PossiblyNullArgument
